@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataAccess</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="hello_world">Bonjour le monde</string>
+
+    <!-- st_ string text ... -->
+    <string name="st_user_id">Utilisateur:</string>
+    <string name="st_password">Mot de passe:</string>
+    <string name="st_login">Entrée</string>
+    
+    
+    
+</resources>

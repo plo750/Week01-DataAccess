@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tf_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/st_user_id" />
+
+    <TextView
+        android:id="@+id/tf_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tf_user_id"
+        android:layout_marginTop="37dp"
+        android:text="@string/st_password" />
+
+    <EditText
+        android:id="@+id/if_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tf_password"
+        android:layout_alignBottom="@+id/tf_password"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/tf_password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/if_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tf_user_id"
+        android:layout_alignBottom="@+id/tf_user_id"
+        android:layout_alignLeft="@+id/if_password"
+        android:layout_alignRight="@+id/if_password"
+        android:ems="10" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/if_password"
+        android:layout_alignRight="@+id/if_password"
+        android:layout_below="@+id/if_password"
+        android:layout_marginTop="36dp"
+        android:text="@string/st_login" 
+        android:onClick="userLogin"
+        />
+
+</RelativeLayout>
