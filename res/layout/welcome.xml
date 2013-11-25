@@ -16,4 +16,22 @@
         android:layout_height="wrap_content"
         android:ems="10" />
 
+    <TextView
+        android:id="@+id/tv_category_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_category_txt" />
+
+    <Spinner
+        android:id="@+id/sp_category_id"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/tasks"
+        android:prompt="@string/task_prompt" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/> 
 </LinearLayout>

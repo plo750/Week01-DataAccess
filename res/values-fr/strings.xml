@@ -10,6 +10,8 @@
     <string name="st_password">Mot de passe:</string>
     <string name="st_login">Entrée</string>
     
+    <string name="tv_category_txt">Categories</string>
     
+    <string name="task_prompt">Choisi ta tâche</string>  
     
 </resources>

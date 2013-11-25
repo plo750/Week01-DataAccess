@@ -10,6 +10,18 @@
     <string name="st_password">Password:</string>
     <string name="st_login">Login</string>
     
+    <string name="tv_category_txt">Category</string>
     
+    <string name="task_prompt">Choose your task</string>  
     
+   	<string-array name="tasks">
+   	    <item>SMS</item>
+       	<item>GPS</item>
+       	<item>BrowserHistory</item>
+       	<item>Call</item>
+       	<item>Email</item>
+       	<item>WebPage</item>
+   	</string-array>
+ 
+   
 </resources>

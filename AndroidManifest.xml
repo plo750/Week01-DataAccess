@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="17"
         android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
 
     <application
         android:allowBackup="true"
@@ -23,6 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name="mobi.j4me.dataaccess.WelcomeActivity">
+        </activity>
+         <activity android:name="mobi.j4me.dataaccess.DetailActivity">
         </activity>
     </application>
 
