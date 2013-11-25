@@ -60,6 +60,7 @@
             android:id="@+id/btn_send_message_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/et_phone_number_id"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginBottom="17dp"
